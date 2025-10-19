@@ -1,0 +1,30 @@
+/*navbar*/
+
+.nav-link {
+      font-size: 18px;
+      transition: transform 0.2s ease, color 0.2s ease, text-shadow 0.2s ease;
+    }
+
+    .nav-link:hover {
+      transform: translateY(-3px);
+    }
+
+/*galerie*/
+
+    .gallery img {
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /*karty*/
+    .card {
+         background-color: white;
+          padding: 10px;
+           border-top-left-radius: 0.5rem;
+            border-top-right-radius: 0.5rem;
+            width: 18rem;
+    }
